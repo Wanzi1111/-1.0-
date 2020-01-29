@@ -1,0 +1,38 @@
+module.exports={
+    1:{
+        typetitle:"用户管理",
+        icontype:"file",
+        title:"用户列表",
+        key:1,
+        to:"/list/userlist"
+    },
+    2:{
+        
+        typetitle:"文档管理",
+        icontype:"user",
+        title:"文档列表",
+        key:2,
+        to:"/list/doclist"
+    },
+    3:{
+        typetitle:"文档管理",
+        icontype:"user",
+        title:"添加文档",
+        key:3,
+        to:"/list/docadd"
+    },
+    4:{
+        typetitle:"知识管理库",
+        icontype:"team",
+        title:"知识库列表",
+        key:4,
+        to:"/list/knowlist"
+    },
+    5:{
+        typetitle:"知识管理库",
+        icontype:"team",
+        title:"添加知识库",
+        key:5,
+        to:"/list/knowadd"
+    }
+}
